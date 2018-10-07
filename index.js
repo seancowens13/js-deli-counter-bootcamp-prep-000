@@ -1,6 +1,7 @@
 function takeANumber(katzDeliLine, newPerson) {
   katzDeliLine.push(newPerson);
   for (var i = 0, h = i+1; i <= katzDeliLine.length; i++, h++) {
+    console.log(katzDeliLine);
     return `Welcome, ${katzDeliLine[i]}. You are number ${h} in line.`;
   }
 }
