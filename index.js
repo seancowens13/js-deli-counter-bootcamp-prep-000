@@ -1,8 +1,6 @@
 function takeANumber(katzDeliLine, newPerson) {
   katzDeliLine.push(newPerson);
   console.log(katzDeliLine);
-
-  }
 }
 
 function nowServing(katzDeliLine) {
