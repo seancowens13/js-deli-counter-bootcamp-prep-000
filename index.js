@@ -27,6 +27,6 @@ function currentLine(line) {
       i++;
       console.log(numberInLine);
     }
-    return `The line is currently: ${numberInLine[i]}`;
+    return `The line is currently: ${numberInLine}`;
   }
 }
