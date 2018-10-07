@@ -25,6 +25,7 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++) {
       numberInLine.push(i + 1);
       var array = numberInLine.join(". " + line[i]);
+      i++;
     }
     return `The line is currently: ${array}`;
   }
